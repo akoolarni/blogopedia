@@ -7,6 +7,7 @@ There will be some implementations done to the site , before the interview start
         1-More blog cards to be added. Currently there are 2 blog cards.
         2-There are very minute problems happening in the fetching of the cover image on home page , as both the cover images are the same , resolving that issue , so that it becomes dynamic as              only the cover image is not fetched properly from the backend.
         3-When cards are opened , I face a small issue in fetching the data from backend , so that will be resolved.
+        (The problem is of backend as the technology used is new and had to face a lot of errors while making it possible)
 
 
 The above changes will be done mostly to enhance the blog site to its fullest. 
