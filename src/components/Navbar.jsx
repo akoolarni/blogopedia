@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import{blog, menu, close} from '../assets';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [toggle,setToggle]=useState(false);
@@ -17,9 +18,9 @@ const Navbar = () => {
 
                 <div className='flex items-center'>
                     <ul className='hidden md:flex'>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Support</li>
+                        <button className='border-none bg-transparent text-[#191c46] mt-4 mb-3 py-6 px-4' ><li>Home</li></button>
+                        <button className='border-none bg-transparent text-[#191c46] mt-4 mb-3 py-6 px-4'><li>About</li></button>
+                        <button className='border-none bg-transparent text-[#191c46] mt-4 mb-3 py-6 px-4'><li>Support</li></button>
                         {/* <li>Platform</li> */}
                         {/* <li>Pricing</li> */}
                     </ul>
@@ -28,13 +29,13 @@ const Navbar = () => {
 
 
                 <div className='hidden md:flex sm:mr-10 md:mr-10'>
-                    <button className='border-none bg-transparent text-black mr-4'>Login</button>
-                    <button className='px-8 py-3'>Sign Up</button>
+                    <button className='border-none bg-transparent text-black mr-4 duration-500'>Login</button>
+                    <button className='px-8 py-3 duration-500'>Sign Up</button>
 
                 </div>
 
-                <div className='md:hidden' onClick={handleClick}>
-                    <img src={!toggle?menu:close} alt="menu" className='w-[28px] h-[28px] object-contain mr-10 drop-shadow-xl' />
+                <div className='md:hidden duration-200' onClick={handleClick}>
+                    <img src={!toggle?menu:close} alt="menu" className='w-[28px] h-[28px] object-contain mr-10 drop-shadow-xl duration-200' />
                 </div>
 
                 

@@ -1,5 +1,6 @@
 import React from 'react'
 import {FaFacebook, FaGithub, FaInstagram, FaTwitter} from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const Foot = () => {
   return (
@@ -9,44 +10,44 @@ const Foot = () => {
         <div>
           <h5 className='font-bold text-[#ffffff]  uppercase py-2'>solution</h5>
           <ol>
-            <li className='py-1'>Market</li>
-            <li className='py-1'>Market</li>
-            <li className='py-1'>Market</li>
-            <li className='py-1'>Market</li>
-            <li className='py-1'>Market</li>
+            <li className='py-1'>TBA</li>
+            <li className='py-1'>TBA</li>
+            <li className='py-1'>TBA</li>
+            <li className='py-1'>TBA</li>
+            <li className='py-1'>TBA</li>
           </ol>
         </div>
 
         <div>
           <h5 className='font-bold text-[#ffffff] uppercase py-2'>solution</h5>
           <ol>
-            <li className='py-1'>Market</li>
-            <li className='py-1'>Market</li>
-            <li className='py-1'>Market</li>
-            <li className='py-1'>Market</li>
-            <li className='py-1'>Market</li>
+            <li className='py-1'>TBA</li>
+            <li className='py-1'>TBA</li>
+            <li className='py-1'>TBA</li>
+            <li className='py-1'>TBA</li>
+            <li className='py-1'>TBA</li>
           </ol>
         </div>
 
         <div>
           <h5 className='font-bold text-[#ffffff]  uppercase py-2'>solution</h5>
           <ol>
-            <li className='py-1'>Market</li>
-            <li className='py-1'>Market</li>
-            <li className='py-1'>Market</li>
-            <li className='py-1'>Market</li>
-            <li className='py-1'>Market</li>
+            <li className='py-1'>TBA</li>
+            <li className='py-1'>TBA</li>
+            <li className='py-1'>TBA</li>
+            <li className='py-1'>TBA</li>
+            <li className='py-1'>TBA</li>
           </ol>
         </div>
 
         <div>
           <h5 className='font-bold text-[#ffffff]  uppercase py-2'>solution</h5>
           <ol>
-            <li className='py-1'>Market</li>
-            <li className='py-1'>Market</li>
-            <li className='py-1'>Market</li>
-            <li className='py-1'>Market</li>
-            <li className='py-1'>Market</li>
+            <li className='py-1'>TBA</li>
+            <li className='py-1'>TBA</li>
+            <li className='py-1'>TBA</li>
+            <li className='py-1'>TBA</li>
+            <li className='py-1'>TBA</li>
           </ol>
         </div>
 
@@ -64,14 +65,21 @@ const Foot = () => {
 
       <div className='flex flex-col max-w-[1240px] px-2 py-4 m-auto justify-between sm:flex-row text-center text-gray-600 items-center'>
         <p>
-          2022 Blogopedia, LLC, All rights reserved.
+         © Copyright 2023 BLOGOPEDIA, LLC, All rights reserved.
         </p>
         <div className='flex justify-between sm:w-[300px] pt-4 text-2x1 gap-2'>
-          <FaFacebook />
-          <FaGithub />
-          <FaInstagram />
-          <FaTwitter />
-
+          <Link to='https://www.facebook.com/LambdaIITH/'>
+              <FaFacebook />
+          </Link>
+          <Link to='https://github.com/akoolarni'>
+              <FaGithub />
+          </Link>
+          <Link to='https://www.instagram.com/lambdaiith/'>
+              <FaInstagram />
+          </Link>
+          <Link to='https://twitter.com/IITHyderabad'>
+              <FaTwitter />
+          </Link>
         </div>
 
       </div>
